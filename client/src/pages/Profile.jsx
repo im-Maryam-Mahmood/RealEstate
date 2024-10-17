@@ -28,7 +28,7 @@ export default function Profile() {
   const [updateSuccess, setUpdateSuccess] = useState(false);
   const [showListingsError, setShowListingsError] = useState(false);
   const [userListings, setUserListings] = useState([]);
-  const dispatch = useDispatch();
+  const dispatch = useDispatch()
 
   // firebase storage
   // allow read;
